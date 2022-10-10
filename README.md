@@ -15,11 +15,11 @@ Bot do Discord com diversas funcionalidades para ajudar no dia a dia dos bolsist
 
 ### Para utilizar o codigo de forma limpa, crie um venv com 
 ```
-python3 -m venv venv
+python3 -m venv <pastadoprojeto>
 ```
 ### Após isso, rode o seguinte comando para ativar o ambiente de trabalho
 ```
-source venv/bin/activate
+source <pastadoprojeto>/bin/activate
 ```
 
 ### Para instalar todas as dependencias, rode

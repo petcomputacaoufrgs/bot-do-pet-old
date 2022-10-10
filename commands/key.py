@@ -6,8 +6,8 @@ from discord.ext import commands, tasks
 #from discord.ui import Button, View
 
 #Constants
-PETIANES = os.environ['PETIANES_ID']
-logchannel = os.environ['LOG_CHANNEL']
+PETIANES = os.getenv("PETIANES_ID")
+logchannel = os.getenv("LOG_CHANNEL")
 key_holder = 0
 command_starts = ("pet.")
 

@@ -7,8 +7,8 @@ from discord.ext import commands, tasks
 
 
 #Constants
-PETIANES = os.environ['PETIANES_ID']
-ANNIVERSARY_CHANNEL = os.environ['WARNINGS_CHANNEL']
+PETIANES = os.getenv("PETIANES_ID")
+ANNIVERSARY_CHANNEL = os.getenv("WARNINGS_CHANNEL")
 data = utils.read_file("data/anniversaries.json")
 
 

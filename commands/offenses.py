@@ -6,7 +6,7 @@ from discord.ext import commands
 
 
 # Constants
-MATHEUS = os.environ['MATHEUS_ID']
+MATHEUS = os.getenv("MATHEUS_ID")
 
 
 # Get swearings from file

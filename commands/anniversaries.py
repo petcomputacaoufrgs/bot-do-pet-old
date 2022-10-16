@@ -9,7 +9,7 @@ from discord.ext import commands, tasks
 #Constants
 PETIANES = os.getenv("PETIANES_ID")
 ANNIVERSARY_CHANNEL = os.getenv("WARNINGS_CHANNEL")
-data = utils.read_file("data/anniversaries.json")
+data = utils.read_file("data/birthdays.json")
 
 
 class Anniversaries(commands.Cog):
